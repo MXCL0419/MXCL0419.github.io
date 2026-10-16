@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MXCL0419 的个人主页</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>欢迎来到 MXCL0419 的个人主页</h1>
+    <p class="tagline">一行一句话介绍你（例如：开发者 / 设计 / 爱好者）</p>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>关于我</h2>
+      <p>你好！我是 MXCL0419。这里是一个使用 GitHub Pages 托管的静态个人站点示例。你可以在此放置个人简介、项目或博客链接。</p>
+    </section>
+
+    <section id="projects">
+      <h2>项目</h2>
+      <ul>
+        <li><strong>示例项目 A</strong> — 简短描述。</li>
+        <li><strong>示例项目 B</strong> — 简短描述。</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>联系我</h2>
+      <p>邮箱：&lt;your-email@example.com&gt;</p>
+      <p>GitHub：<a href="https://github.com/MXCL0419">https://github.com/MXCL0419</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> MXCL0419</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
